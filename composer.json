@@ -1,18 +1,27 @@
 {
     "name": "henryhayes/merge",
     "type": "magento-module",
-    "extra": {
-        "map": [
-            ["src/app/code/community/HenryHayes/Merge", "app/code/community/HenryHayes"],
-            ["src/app/etc/modules/HenryHayes_Merge.xml", "app/etc/modules/HenryHayes_Merge.xml"]
-        ]
-    },
     "autoload": {
         "psr-0": {
             "HenryHayes": "app/code/community"
         }
     },
+    "minimum-stability": "stable",
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*",
+        "openmage/magento-lts": "^19.4.0"
+    },
     "require-dev": {
         "phpunit/phpunit": "^9"
+    },
+    "extra": {
+        "map": [["src/app/code/community/HenryHayes/Merge", "app/code/community/HenryHayes"], ["src/app/etc/modules/HenryHayes_Merge.xml", "app/etc/modules/HenryHayes_Merge.xml"]],
+        "magento-root-dir": "./"
+    },
+    "config": {
+        "allow-plugins": {
+            "magento-hackathon/magento-composer-installer": true,
+            "cweagans/composer-patches": true
+        }
     }
 }
