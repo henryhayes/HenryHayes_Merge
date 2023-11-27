@@ -9,13 +9,7 @@
     },
     "autoload": {
         "psr-0": {
-            "": [
-                "app",
-                "app/code/local",
-                "app/code/community",
-                "app/code/core",
-                "lib"
-            ]
+            "HenryHayes": "app/code/community"
         }
     },
     "require-dev": {
