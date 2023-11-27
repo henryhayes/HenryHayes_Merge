@@ -1,10 +1,13 @@
 {
-    "name": "henryhayes/HenryHayes_Merge",
+    "name": "henryhayes/merge",
     "type": "magento-module",
     "extra": {
         "map": [
             ["src/app/code/community/HenryHayes/Merge", "app/code/community/HenryHayes"],
             ["src/app/etc/modules/HenryHayes_Merge.xml", "app/etc/modules/HenryHayes_Merge.xml"]
         ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
