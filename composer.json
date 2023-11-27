@@ -1,11 +1,6 @@
 {
     "name": "henryhayes/merge",
     "type": "magento-module",
-    "autoload": {
-        "psr-0": {
-            "HenryHayes": "app/code/community"
-        }
-    },
     "minimum-stability": "stable",
     "require":{
         "magento-hackathon/magento-composer-installer":"*",
@@ -13,6 +8,11 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^9"
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "HenryHayes": "app/code/community"
+        }
     },
     "extra": {
         "map": [["src/app/code/community/HenryHayes/Merge", "app/code/community/HenryHayes"], ["src/app/etc/modules/HenryHayes_Merge.xml", "app/etc/modules/HenryHayes_Merge.xml"]],
