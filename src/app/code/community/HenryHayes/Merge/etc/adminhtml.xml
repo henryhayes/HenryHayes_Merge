@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <customer>
+                        <children>
+                            <actions>
+                                <title>Actions</title>
+                                <children>
+                                    <merge><title>Merge</title></merge>
+                                </children>
+                            </actions>
+                        </children>
+                    </customer>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

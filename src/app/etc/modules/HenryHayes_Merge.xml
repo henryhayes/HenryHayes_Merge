@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HenryHayes_Merge>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Core />
+                <Mage_Admin />
+                <Mage_Adminhtml />
+                <Mage_Customer />
+                <Mage_Sales />
+            </depends>
+        </HenryHayes_Merge>
+    </modules>
+</config>

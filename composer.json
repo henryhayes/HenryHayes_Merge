@@ -1,0 +1,10 @@
+{
+    "name": "henryhayes/HenryHayes_Merge",
+    "type": "magento-module",
+    "extra": {
+        "map": [
+            ["src/app/code/community/HenryHayes", "app/code/community/"],
+            ["src/app/etc/modules/HenryHayes_Merge.xml", "app/etc/modules/HenryHayes_Merge.xml"]
+        ]
+    }
+}
