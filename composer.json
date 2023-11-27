@@ -7,6 +7,17 @@
             ["src/app/etc/modules/HenryHayes_Merge.xml", "app/etc/modules/HenryHayes_Merge.xml"]
         ]
     },
+    "autoload": {
+        "psr-0": {
+            "": [
+                "app",
+                "app/code/local",
+                "app/code/community",
+                "app/code/core",
+                "lib"
+            ]
+        }
+    },
     "require-dev": {
         "phpunit/phpunit": "^9"
     }
