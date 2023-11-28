@@ -29,7 +29,7 @@
     },
     "extra": {
         "map": [
-            ["src/app/code/community/HenryHayes/Merge", "app/code/community/HenryHayes"],
+            ["src/app/code/community/HenryHayes/Merge", "app/code/community/HenryHayes/Merge"],
             ["src/app/etc/modules/HenryHayes_Merge.xml", "app/etc/modules/HenryHayes_Merge.xml"]
         ],
         "magento-deploystrategy": "symlink"
