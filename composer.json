@@ -3,6 +3,7 @@
     "type": "magento-module",
     "minimum-stability": "stable",
     "require":{
+        "aydin-hassan/magento-core-composer-installer": "~2.0.0",
         "magento-hackathon/magento-composer-installer":"*",
         "openmage/magento-lts": "^19.4.0"
     },
@@ -15,13 +16,16 @@
         }
     },
     "extra": {
-        "map": [["src/app/code/community/HenryHayes/Merge", "app/code/community/HenryHayes"], ["src/app/etc/modules/HenryHayes_Merge.xml", "app/etc/modules/HenryHayes_Merge.xml"]],
+        "map": [
+            ["app/code/community/HenryHayes/Merge", "app/code/community/HenryHayes"],
+            ["app/etc/modules/HenryHayes_Merge.xml", "app/etc/modules/HenryHayes_Merge.xml"]],
         "magento-root-dir": "./"
     },
     "config": {
         "allow-plugins": {
             "magento-hackathon/magento-composer-installer": true,
-            "cweagans/composer-patches": true
+            "cweagans/composer-patches": true,
+            "aydin-hassan/magento-core-composer-installer": true
         }
     }
 }
