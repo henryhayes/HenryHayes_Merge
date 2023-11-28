@@ -1,6 +1,12 @@
 {
     "name": "henryhayes/merge",
     "type": "magento-module",
+    "authors": [
+        {
+            "name": "Henry Hayes",
+            "email": "henryhayesuk@gmail.com"
+        }
+    ],
     "minimum-stability": "stable",
     "require":{
         "aydin-hassan/magento-core-composer-installer": "~2.0.0",
@@ -12,7 +18,7 @@
     },
     "autoload-dev": {
         "psr-0": {
-            "HenryHayes": "app/code/community"
+            "HenryHayes": "src/app/code/community"
         }
     },
     "extra": {
