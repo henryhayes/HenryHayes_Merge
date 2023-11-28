@@ -1,0 +1,1 @@
+./composer.phar update --dev --prefer-lowest --no-plugins
